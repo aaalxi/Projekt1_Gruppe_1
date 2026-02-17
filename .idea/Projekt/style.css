@@ -113,7 +113,6 @@ nav a {
 nav a:hover {
     background-color: #6F8F72; /* dæmpet grøn */
     transform: translateY(-2px);
-    /* text-decoration: underline; hvis du vil have endnu mere highlight */
 }
 
 nav a.active {
