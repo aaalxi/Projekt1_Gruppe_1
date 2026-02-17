@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Events</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="events.css">
 </head>
 <body>
 
@@ -16,62 +17,62 @@
 
     <nav>
         <ul>
-            <li><a href="frontpage.html">Hjem</a></li>
+            <li><a href="index.html">Hjem</a></li>
             <li><a href="info.html">Info</a></li>
             <li><a href="guides.html">Guides</a></li>
-            <li><a href="events.html">Events</a></li>
+            <li><a href="events.html" class="active">Events</a></li>
             <li><a href="nyheder.html">Nyheder</a></li>
         </ul>
     </nav>
 
 </header>
 
-<main class="page">
+<main>
 
-    <div class="page-header">
+    <div>
         <div>
             <h1>Events</h1>
-            <p class="muted">Kommende events om madspild + mulighed for oprettelse for organisationer/firmaer.</p>
+            <p>Kommende events om madspild + mulighed for oprettelse for organisationer/firmaer.</p>
         </div>
     </div>
 
     <div class="events-layout">
 
-        <section class="panel" aria-label="Kommende events">
-            <div class="panel-title">
+        <section aria-label="Kommende events">
+            <div>
                 <h2>Kommende events</h2>
             </div>
 
             <article class="event-card">
                 <h3>Madspild i hverdagen</h3>
-                <p class="muted">Tips til planlægning, opbevaring og “restemad”.</p>
+                <p>Tips til planlægning, opbevaring og “restemad”.</p>
                 <p class="event-info"><strong>Dato:</strong> 12. marts · 18:00</p>
                 <p class="event-info"><strong>Sted:</strong> København · Nordhavn Kulturhus</p>
-                <button class="btn btn-accent" type="button">Tilmeld</button>
+                <button type="button">Tilmeld</button>
             </article>
 
             <article class="event-card">
                 <h3>Forstå datomærkning</h3>
-                <p class="muted">“Bedst før” vs “Sidste anvendelse” og hvad du kan stole på.</p>
+                <p>“Bedst før” vs “Sidste anvendelse” og hvad du kan stole på.</p>
                 <p class="event-info"><strong>Dato:</strong> 26. marts · 19:30</p>
                 <p class="event-info"><strong>Sted:</strong> Aarhus · Dokk1</p>
-                <button class="btn btn-accent" type="button">Tilmeld</button>
+                <button type="button">Tilmeld</button>
             </article>
 
             <article class="event-card">
                 <h3>Red overskudsmad</h3>
-                <p class="muted">Frivillig indsats: sortering & pakning til uddeling.</p>
+                <p>Frivillig indsats: sortering & pakning til uddeling.</p>
                 <p class="event-info"><strong>Dato:</strong> 5. april · 15:00</p>
                 <p class="event-info"><strong>Sted:</strong> Odense · Havnepladsen</p>
-                <button class="btn btn-accent" type="button">Tilmeld</button>
+                <button type="button">Tilmeld</button>
             </article>
 
         </section>
 
         <!-- HØJRE: CTA boks -->
-        <aside class="panel cta" aria-label="Opret event">
+        <aside class="cta" aria-label="Opret event">
             <h2>Opret event</h2>
-            <p class="muted">
+            <p>
                 Kun organisationer og firmaer kan oprette events. Det kræver CVR.
             </p>
             <form class="event-form">
@@ -132,7 +133,7 @@
                     </label>
                 </div>
 
-                <button class="btn btn-accent" type="submit">Opret event</button>
+                <button type="submit">Opret event</button>
 
             </form>
         </aside>

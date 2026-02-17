@@ -1,0 +1,62 @@
+.events-layout {
+    display: grid;
+    grid-template-columns: 1.6fr 0.9fr;
+    gap: 16px;
+    align-items: start;
+}
+
+.event-card {
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 18px;
+    padding: 14px;
+}
+
+.event-card + .event-card {
+    margin-top: 12px;
+}
+
+.event-info {
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+.cta {
+    max-width: 500px;
+    margin: 10px;
+}
+
+.event-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.event-form input,
+.event-form select,
+.event-form textarea {
+    padding: 10px 12px;
+    border-radius: 14px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    font: inherit;
+}
+
+.event-form input:focus,
+.event-form select:focus,
+.event-form textarea:focus {
+    outline: none;
+    border-color: #6F8F72;
+    box-shadow: 0 0 0 3px rgba(111, 143, 114, 0.2);
+}
+
+.form-check {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+}
