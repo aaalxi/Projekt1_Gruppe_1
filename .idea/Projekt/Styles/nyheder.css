@@ -1,3 +1,8 @@
+
+body{
+    background-color: #ffffff;
+}
+
 .title {
     padding: 40px;
     margin-top: 20px;
@@ -15,7 +20,7 @@
     padding: 0 20px;
 }
 
-.article-grid {
+.container {
     display: grid;
     grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
     padding: 40px;
@@ -25,7 +30,6 @@
 .card {
     display: flex;
     flex-direction: column;
-
 }
 
 .card img {
@@ -34,16 +38,33 @@
     object-fit: cover;
 }
 
-.card h3 {
+.card-content h3 {
     font-size: 18px;
-    margin-top: 14px 0;
+    /*margin-top: 14px 0;*/
 }
 
-.category {
+.card:hover{
+    cursor: pointer;
+}
+.card:hover h3{
+    text-decoration: underline;
+}
+
+
+.fuckme{
+    display: flex;
+}
+
+.category{
     color: #c9041b;
     font-size: 11px;
     font-weight: bold;
     padding: 17px 0;
+}
+
+.date{
+    color: #676767;
+
 }
 
 
