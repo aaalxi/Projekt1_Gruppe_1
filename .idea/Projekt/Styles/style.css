@@ -30,6 +30,7 @@
 }
 
 header {
+    position: sticky;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,7 +44,7 @@ footer {
     min-height: 100px;
     bottom: 0;
     width: 100%;
-    display: flex;
+    /*display: flex;*/
     background-color: white;
     color: var(--primary-color);
     padding: 20px;

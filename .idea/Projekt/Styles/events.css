@@ -11,6 +11,12 @@
     border-radius: 18px;
     padding: 14px;
 }
+.event-box{
+    height: 400px;
+    overflow:scroll;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    display: flow;
+}
 
 .event-card + .event-card {
     margin-top: 12px;
