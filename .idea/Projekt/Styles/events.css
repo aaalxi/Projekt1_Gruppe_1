@@ -50,8 +50,8 @@
 .event-form select:focus,
 .event-form textarea:focus {
     outline: none;
-    border-color: #6F8F72;
-    box-shadow: 0 0 0 3px rgba(111, 143, 114, 0.2);
+    border-color: #57a557;
+    box-shadow: 0 0 0 3px rgba(72, 136, 72, 0.2);
 }
 
 .form-check {
