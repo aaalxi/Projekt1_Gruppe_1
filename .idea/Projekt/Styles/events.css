@@ -12,10 +12,12 @@
     padding: 14px;
 }
 .event-box{
-    height: 400px;
+    max-height: 850px;
+    margin-left: 10px;
+    position: static;
     overflow:scroll;
-    border: 1px solid rgba(0, 0, 0, 0.08);
-    display: flow;
+    /*border: 1px solid rgba(0, 0, 0, 0.08);*/
+
 }
 
 .event-card + .event-card {
@@ -29,7 +31,6 @@
 
 .cta {
     max-width: 500px;
-    margin: 10px;
 }
 
 .event-form {
