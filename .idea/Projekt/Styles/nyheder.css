@@ -1,0 +1,36 @@
+.title {
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+.title h1 {
+    font-size: 45px;
+}
+
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    flex-direction: rows;
+    gap: 10px;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border: solid black;
+    gap:10px;
+    margin: 5px;
+}
+
+.article h1 {
+
+}
+
+
+
+
+
+
