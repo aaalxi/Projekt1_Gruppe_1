@@ -46,30 +46,30 @@ footer {
     display: flex;
     background-color: white;
     color: var(--primary-color);
-    /*background-color: rgb(87, 165, 87, 0.2); */
-    border-bottom: 1px solid;
     padding: 20px;
+    /*background-color: rgb(87, 165, 87, 0.2); */
+    /*border-top: 1px solid;*/
     /*  align-items: center;*/
 }
 
 body {
-    background-color: #f7f6f2;
+    background-color: white;
 }
 
 .button {
+    border: none;
     transition: all 0.2s ease;
-    border: outset;
     padding: 10px 18px;
     border-radius: 10px;
     background-color: rgba(87, 165, 87, 0.5);
 }
 
 .button:hover {
+    cursor: pointer;
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
 
 .button:active {
-    border: inset;
     background-color: var(--primary-color);
 }
 
@@ -114,6 +114,9 @@ nav a:hover {
     cursor: pointer;
     text-decoration: none;
     /*box-shadow: 0 2px 10px #57a557; */
+}
+nav a.active{
+    font-weight: bolder;
 }
 
 .div {
