@@ -3,11 +3,8 @@
     padding: 40px;
     margin-top: 20px;
     font-size: 45px;
-    border-bottom: 3px;
-    text-decoration: underline;
-    text-decoration-thickness: 8px;
+    text-decoration: underline 8px var(--primary-color);
     text-underline-offset: 10px;    /* flytter streg lidt ned*/
-    text-decoration-color: var(--primary-color);
 }
 
 .nyheder-section {
@@ -53,7 +50,6 @@
 .card-content time{
     color: #8e8989;
     font-size: 10px;
-    margin-left: none;
 }
 
 .card:hover{
@@ -64,13 +60,11 @@
     text-decoration: underline;
 }
 
-.card-link {
+.card-link,
+.card-link:visited {
     text-decoration: none;
+    color: inherit;
     display: block;
-    color: inherit;
-}
-.card-link:visited{
-    color: inherit;
 }
 
 .nyheder-section button{
@@ -95,9 +89,7 @@
 }
 
 .tilmeld h3{
-    text-decoration: underline;
-    text-decoration-thickness: 2px;
-    text-decoration-color: var(--primary-color);
+    text-decoration: underline 2px var(--primary-color);
     margin-bottom: 10px;
 }
 
