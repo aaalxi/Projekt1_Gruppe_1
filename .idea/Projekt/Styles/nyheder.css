@@ -38,7 +38,7 @@ body{
     object-fit: cover;
 }
 
-.meta h3 {
+.card h3 {
     font-size: 18px;
     font-weight: normal;
     /*margin-top: 14px 0;*/
@@ -53,10 +53,10 @@ body{
 }
 
 
-.category time{
-    color: #9a9898;
+.card-content time{
+    color: #8e8989;
     font-size: 10px;
-    font-weight: lighter;
+    margin-left: none;
 }
 
 .category{
@@ -64,10 +64,7 @@ body{
     font-size: 11px;
     font-weight: bold;
     padding: 17px 0;
-}
-
-.date{
-    color: #676767;
+    display: inline-block;      /* x */
 }
 
 .card-link {
