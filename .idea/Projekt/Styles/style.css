@@ -220,27 +220,6 @@ nav a.active{
     font-weight: bolder;
     font-size: 30px;
 }
-
-/*forside-slut*/
-
-::-webkit-scrollbar {
-    width: 10px;
-}
-
-::-webkit-scrollbar-track {
-    background: white;
-}
-
-::-webkit-scrollbar-thumb {
-    background: red;
-    border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: red;
-}
-
-
 /* Prøv og leg med de forskellige farver og se hvad der ser godt ud.
 Jeg har bare taget noget der ser neutralt ud, men det er også kedeligt at kigge på.
  */
