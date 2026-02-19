@@ -41,22 +41,6 @@ body{
 .card h3 {
     font-size: 18px;
     font-weight: normal;
-    /*margin-top: 14px 0;*/
-}
-
-.card:hover{
-    cursor: pointer;
-    background-color: whitesmoke;
-}
-.card:hover h3{
-    text-decoration: underline;
-}
-
-
-.card-content time{
-    color: #8e8989;
-    font-size: 10px;
-    margin-left: none;
 }
 
 .category{
@@ -67,12 +51,27 @@ body{
     display: inline-block;
 }
 
+.card-content time{
+    color: #8e8989;
+    font-size: 10px;
+    margin-left: none;
+}
+
+
+.card:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+.card:hover h3{
+    text-decoration: underline;
+}
+
+
 .card-link {
     text-decoration: none;
     display: block;
     color: inherit;
 }
-
 .card-link:visited{
     color: inherit;
 }
