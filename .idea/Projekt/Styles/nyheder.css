@@ -52,8 +52,10 @@ body{
 }
 
 
-.fuckme{
-    display: flex;
+.category time{
+    color: #9a9898;
+    font-size: 10px;
+    font-weight: lighter;
 }
 
 .category{

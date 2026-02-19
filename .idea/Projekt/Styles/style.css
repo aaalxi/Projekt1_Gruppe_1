@@ -142,22 +142,6 @@ nav a.active{
     word-break: normal;
 }
 
-::-webkit-scrollbar {
-    width: 10px;
-}
-
-::-webkit-scrollbar-track {
-    background: white;
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: grey;
-    border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background-color: red;
-}
 
 
 /* Prøv og leg med de forskellige farver og se hvad der ser godt ud.
