@@ -5,6 +5,7 @@
     <title>Events</title>
     <link rel="stylesheet" href="Styles/style.css">
     <link rel="stylesheet" href="Styles/events.css">
+    <link rel="icon" href="Pictures/dmmfavicon.png" type="image/svg">
 </head>
 <body>
 
@@ -45,6 +46,7 @@
                 <p class="event-info"><strong>Dato:</strong> 12. marts · 18:00</p>
                 <p class="event-info"><strong>Sted:</strong> København · Nordhavn Kulturhus</p>
                 <button type="button" class="button">Tilmeld</button>
+                <button type="button" class="button_lowprio">Læs mere</button>
             </div>
 
             <div class="event-card">
@@ -53,6 +55,7 @@
                 <p class="event-info"><strong>Dato:</strong> 12. marts · 18:00</p>
                 <p class="event-info"><strong>Sted:</strong> København · Nordhavn Kulturhus</p>
                 <button type="button" class="button">Tilmeld</button>
+                <button type="button" class="button_lowprio">Læs mere</button>
             </div>
 
             <div class="event-card">
@@ -61,6 +64,7 @@
                 <p class="event-info"><strong>Dato:</strong> 12. marts · 18:00</p>
                 <p class="event-info"><strong>Sted:</strong> København · Nordhavn Kulturhus</p>
                 <button type="button" class="button">Tilmeld</button>
+                <button type="button" class="button_lowprio">Læs mere</button>
             </div>
 
             <div class="event-card">
@@ -69,6 +73,7 @@
                 <p class="event-info"><strong>Dato:</strong> 12. marts · 18:00</p>
                 <p class="event-info"><strong>Sted:</strong> København · Nordhavn Kulturhus</p>
                 <button type="button" class="button">Tilmeld</button>
+                <button type="button" class="button_lowprio">Læs mere</button>
             </div>
 
 
@@ -78,6 +83,7 @@
                 <p class="event-info"><strong>Dato:</strong> 26. marts · 19:30</p>
                 <p class="event-info"><strong>Sted:</strong> Aarhus · Dokk1</p>
                 <button type="button" class="button">Tilmeld</button>
+                <button type="button" class="button_lowprio">Læs mere</button>
             </div>
 
             <div class="event-card">
@@ -86,12 +92,13 @@
                 <p class="event-info"><strong>Dato:</strong> 5. april · 15:00</p>
                 <p class="event-info"><strong>Sted:</strong> Odense · Havnepladsen</p>
                 <button type="button" class="button">Tilmeld</button>
+                <button type="button" class="button_lowprio">Læs mere</button>
             </div>
 
         </section>
+        
 
-        <!-- HØJRE: CTA boks -->
-        <aside class="cta" aria-label="Opret event">
+        <div aria-label="Opret event">
             <form class="event-form">
                 <h2>Opret event</h2>
                 <p>
@@ -110,12 +117,12 @@
 
                 <div class="form-group">
                     <label for="Telefon">Telefon</label>
-                    <input type="tel" id="Telefon" name="Telefon">
+                    <input type="tel" inputmode="numeric" pattern="[0-9]{8}" maxlength="8" id="Telefon" name="Telefon">
                 </div>
 
                 <div class="form-group">
                     <label for="CVR">CVR nr</label>
-                    <input type="number" id="CVR" name="CVR" required>
+                    <input type="text" inputmode="numeric" pattern="[0-9]{8}" maxlength="8" title="CVR skal bestå af præcis 8 cifre" placeholder="Fx 12345678" id="CVR" name="CVR" required>
                 </div>
 
                 <div class="form-group">
@@ -148,16 +155,17 @@
                 </div>
 
                 <div class="form-check">
-                    <input type="checkbox" id="Confirm" required>
                     <label for="Confirm">
-                        Jeg accepterer <a href="terms.html">Terms of Service</a>
+                        <input type="checkbox" id="Confirm" required>
+                        Jeg accepterer <a href="terms.html" target="_blank">Terms of Service</a>
                     </label>
                 </div>
 
-                <button type="submit" class="button">Opret event</button>
+                <button type="submit" class="button">Indsend event </button>
+                <button type="reset" class="button_lowprio">Nulstil </button>
 
             </form>
-        </aside>
+        </div>
 
     </div>
 

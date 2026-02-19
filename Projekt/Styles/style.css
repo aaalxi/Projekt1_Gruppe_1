@@ -64,6 +64,17 @@ body {
     border-radius: 10px;
     background-color: rgba(87, 165, 87, 0.5);
 }
+.button_lowprio{
+    border: none;
+    transition: all 0.2s ease;
+    padding: 10px 18px;
+    border-radius: 10px;
+    background-color: rgba(145, 145, 145, 0.5);
+}
+.button_lowprio:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
 
 .button:hover {
     cursor: pointer;
@@ -209,27 +220,6 @@ nav a.active{
     font-weight: bolder;
     font-size: 30px;
 }
-
-/*forside-slut*/
-
-::-webkit-scrollbar {
-    width: 10px;
-}
-
-::-webkit-scrollbar-track {
-    background: white;
-}
-
-::-webkit-scrollbar-thumb {
-    background: red;
-    border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: red;
-}
-
-
 /* Prøv og leg med de forskellige farver og se hvad der ser godt ud.
 Jeg har bare taget noget der ser neutralt ud, men det er også kedeligt at kigge på.
  */
