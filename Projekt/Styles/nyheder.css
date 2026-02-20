@@ -104,8 +104,13 @@
 }
 
 .tilmeld-form input{
-    padding: 10px;
-    border: 1px solid black;
-    border-radius: 4px;
-    font-size: 14px;
+    padding: 10px 12px;
+    border-radius: 14px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    font: inherit;
+}
+.tilmeld-form input:focus{
+    outline: none;
+    border-color: #57a557;
+    box-shadow: 0 0 0 3px rgba(72, 136, 72, 0.2);
 }
