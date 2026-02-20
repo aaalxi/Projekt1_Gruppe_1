@@ -5,6 +5,23 @@
     align-items: start;
 }
 
+.events-left{
+    display:flex;
+    flex-direction:column;
+    gap:12px; /* afstand mellem titel, filter og liste */
+}
+
+.filter-bar{
+    background: whitesmoke;
+    border: 1px solid rgba(0,0,0,0.08);
+    border-radius: 18px;
+    padding: 12px;
+    display:flex;
+    gap:12px;
+    flex-wrap:wrap;
+    align-items:center;
+}
+
 .event-card {
     background-color: whitesmoke;
     border: 1px solid rgba(0, 0, 0, 0.08);
@@ -16,9 +33,9 @@
 }
 .event-box{
     max-height: 850px;
-    margin-left: 10px;
+    margin-left: 0;
     position: static;
-    overflow:scroll;
+    overflow:auto;
     /*border: 1px solid rgba(0, 0, 0, 0.08);*/
 
 }
