@@ -12,6 +12,7 @@
 }
 
 .filter-bar{
+    margin-left: 10px;
     background: whitesmoke;
     border: 1px solid rgba(0,0,0,0.08);
     border-radius: 18px;
@@ -20,6 +21,7 @@
 }
 .filter-bar select{
     margin-right: 10px;
+    border-radius: 14px;
 }
 .filter-bar input{
     border-radius: 12px;
@@ -42,7 +44,7 @@ margin-top: 0.5em;
 }
 .event-box{
     max-height: 850px;
-    margin-left: 0;
+    margin-left: 10px;
     position: static;
     overflow:auto;
     /*border: 1px solid rgba(0, 0, 0, 0.08);*/
