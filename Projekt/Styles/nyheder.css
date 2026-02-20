@@ -2,9 +2,9 @@
 .title {
     padding: 40px;
     margin-top: 20px;
-    font-size: 45px;
+    font-size: 40px;
     text-decoration: underline 8px var(--primary-color);
-    text-underline-offset: 10px;    /* flytter streg lidt ned*/
+    text-underline-offset: 10px;
 }
 
 .nyheder-section {
@@ -65,10 +65,13 @@
 }
 
 .nyheder-section button{
-    font-size: 15px;
+    grid-column: 1/-1;
+    justify-self: end;
+    margin-top: 40px;
+    border: black solid 1px;
+    font-size: 12px;
     font-weight: bold;
-    text-align: center;
-    border: #8e8989 solid 2px;
+    background-color: white;
 }
 
 /* Tilmeld Nyhedsbrev */
@@ -79,11 +82,11 @@
 }
 
 .tilmeld{
-    max-width: 265px;
+    max-width: 245px;
     margin: 80px 40px;
 }
 
-.tilmeld h3{
+.tilmeld h2{
     text-decoration: underline 2px var(--primary-color);
     margin-bottom: 10px;
     font-size: 18px;
@@ -94,6 +97,7 @@
     font-size: 15px;
 }
 
+/* --- */
 .tilmeld-form{
     display: flex;
     flex-direction: column;
@@ -109,5 +113,12 @@
 .tilmeld-form input:focus{
     outline: none;
     border-color: #57a557;
-    box-shadow: 0 0 0 3px rgba(72, 136, 72, 0.2);
+}
+
+.hidden{ /*NOT BEST PRACTICE*/
+display: none;
+}
+
+.button{
+    font-weight: bold;
 }
