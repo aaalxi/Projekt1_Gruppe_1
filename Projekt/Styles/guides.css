@@ -13,7 +13,7 @@ h1 {
 
 hr {
     border-top: dashed 2px;
-    color: rgba(100,100,100,0.9);
+    color: var(--primary-color);
     margin-left: 80px;
     margin-right: 80px;
 }
