@@ -21,6 +21,9 @@
     flex-wrap:wrap;
     align-items:center;
 }
+.filter-bar input{
+    border-radius: 12px;
+}
 
 .event-card {
     background-color: whitesmoke;
