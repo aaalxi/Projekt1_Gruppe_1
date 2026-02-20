@@ -31,7 +31,7 @@ footer {
     color: var(--primary-color);
     padding: 20px;
     padding-left: 10px;
-    margin-top: 1px solid;
+    margin-top: 1px;
     /*background-color: rgb(87, 165, 87, 0.2); */
     /*border-top: 1px solid;*/
 
@@ -74,8 +74,9 @@ body {
 .logo {
     width: 40px;
     height: 40px;
-    border-radius: 12px;
+    border-radius: 20px;
     overflow: hidden;
+    border: red solid 2px;
 }
 
 .logo img {
