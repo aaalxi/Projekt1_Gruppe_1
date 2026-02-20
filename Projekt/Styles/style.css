@@ -1,7 +1,6 @@
 :root {
     --primary-color: #57a557;
     --box-color: #f4f1e8;
-
 }
 
 * {
@@ -17,31 +16,29 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: rgb(255, 255, 255);
-    /*border-bottom:1px solid var(--primary-color); */
     padding: 0 20px;
 }
 
 footer {
-    max-height: 200px;
     min-height: 100px;
-    bottom: 0;
     width: 100%;
-    /*display: flex;*/
+    display: block;
     background-color: white;
     color: var(--primary-color);
     padding: 20px;
-    padding-left: 10px;
-    margin-top: 1px;
-    /*background-color: rgb(87, 165, 87, 0.2); */
-    /*border-top: 1px solid;*/
-
 }
+
 footer p{
     font-size: 15px;
-    margin-top: 4px;
-    padding: 0 12px;        /*flugte med ikon*/
+    margin-top: 8px;
 }
 
+footer a{
+    font-weight: bolder !important;
+    font-size: 18px;
+    text-decoration: none;
+    color: inherit;
+}
 
 body {
     background-color: white;
@@ -54,6 +51,7 @@ body {
     border-radius: 10px;
     background-color: var(--primary-color);
 }
+
 .button_lowprio {
     border: none;
     transition: all 0.2s ease;
@@ -97,23 +95,22 @@ nav ul {
     margin: 0;
 }
 
-nav a {
-    border-radius: 20px;
+nav a{
     text-decoration: none;
     display: block;
+    font-size: 16px;
     padding: 10px 10px;
     margin: 1px;
     align-items: center;
     color: var(--primary-color);
-    font-weight: 300;
 }
 
 nav a:hover {
     font-weight: bolder;
     cursor: pointer;
     text-decoration: none;
-    /*box-shadow: 0 2px 10px #57a557; */
 }
+
 nav a.active{
     font-weight: bolder;
 }
@@ -124,17 +121,9 @@ nav a.active{
     display: flex;
     width: fit-content;
     height: fit-content;
-
     background-color: rgb(124, 57, 253);
     border-radius: 20px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
-
     overflow: auto;
     word-break: normal;
 }
-
-
-
-/* Prøv og leg med de forskellige farver og se hvad der ser godt ud.
-Jeg har bare taget noget der ser neutralt ud, men det er også kedeligt at kigge på.
- */
