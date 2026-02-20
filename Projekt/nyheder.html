@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Nyheder</title>
+  <meta charset="UTF-8">
+  <title>Nyheder</title>
   <link rel="stylesheet" href="Styles/style.css">
-  <link rel="icon" href="Pictures/dmmfavicon.png" type="image/svg">
+  <link rel="stylesheet" href="Styles/nyheder.css">
 </head>
 <body>
 
 <header>
   <div class="logo">
     <a href="index.html">
-      <img src="Pictures/placeholderimg.jpg" alt="placeholder"> <!-- Skift bare billedet ud med andet -->
+      <img src="Pictures/dmm_.png" alt="logo">
     </a>
   </div>
 
@@ -25,11 +25,142 @@
       <li><a href="team.html">Om os</a></li>
     </ul>
   </nav>
-
 </header>
 
+
+<!--ARTIKLER-->
+<section class="nyheder-section">
+  <h2 class="title">Seneste nyt</h2>
+  <div class="container">
+
+    <article class="card">
+      <img src="Pictures/nyhed1.jpg" alt="Lokaler picture">
+
+      <div class="card-content">
+        <p class="category"> Events</p>
+        <time datetime="2025-02-19"> 19. feb 2026</time>
+        <h3><b>Danmark Mod Madspild åbner nye lokaler i København:</b> Nu kan lokaler lejes til events og
+          bæredygtige arrangementer</h3>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="Pictures/nyhed2.png" alt="IT picture">
+
+      <div class="card-content">
+        <p class="category"> Intern </p>
+        <time datetime="2026-02-16"> 16. feb 2026</time>
+        <h3><b>Nyt IT-team skal styrke den digitale udvikling: </b> Stor investering i moderne systemer
+          og datahåndtering</h3>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="Pictures/nyhed7.jpg" alt="Regeringen picture">
+
+      <div class="card-content">
+        <p class="category"> Politik </p>
+        <time datetime="2026-02-14"> 14. feb 2026</time>
+        <h3><b>Regeringen vil skærpe indsatsen mod madspild</b></h3>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="Pictures/dmm_.png" alt="Logo picture">
+
+      <div class="card-content">
+        <p class="category">Statistik </p>
+        <time datetime="2025-01-12"> 12. jan 2026</time>
+        <h3><b>Madspildsrapport for 2025 offenliggjort:</b> Ny rapport kortlægger danskernes madvaner</h3>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="Pictures/nyhed3.jpg" alt="Frivillig picture">
+
+      <div class="card-content">
+        <p class="category">Intern </p>
+        <time datetime="2025-01-08"> 08. jan 2026</time>
+        <h3><b>Rekordmange frivillige melder sig</b></h3>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="Pictures/nyhed4.webp" alt="GenZ picture">
+
+      <div class="card-content">
+        <p class="category">Statistik </p>
+        <time datetime="2025-01-05"> 05. jan 2026</time>
+        <h3><b>Unge vil reducere deres madspild</b></h3>
+      </div>
+    </article>
+
+
+    <article class="card">
+      <img src="Pictures/nyhed5.jpg" alt="Madspild picture">
+
+      <div class="card-content">
+        <p class="category">Klima </p>
+        <time datetime="2025-01-02"> 02. jan 2026</time>
+        <h3><b>Madspild fylder i klimaregnskabet:</b>
+          Ubrugte madvarer er skyld i 1,3 milliarder tons CO2-udledning hver åt </h3>
+      </div>
+    </article>
+
+
+    <article class="card">
+      <img src="Pictures/dmm_.png" alt="Logo picture">
+
+      <div class="card-content">
+        <p class="category">Partnerskab </p>
+        <time datetime="2025-12-28"> 29. dec 2025</time>
+        <h3><b>Supermarkeder indgår aftale med DMM</b> </h3>
+      </div>
+    </article>
+
+
+    <article class="card">
+      <img src="Pictures/nyhed6.JPG" alt="EU picture">
+
+      <div class="card-content">
+        <p class="category">EU </p>
+        <time datetime="2025-12-27"> 27. dec 2025</time>
+        <h3><b>EU støtter dansk projekt mod madspild:</b> Millionbevilling skal styrke digital sporbarhed
+          i fødevarekæden</h3>
+      </div>
+    </article>
+  </div>
+  <button type="button" class="button_lowprio">Se alle nyheder</button>  <!--PROBLEM-->
+</section>
+
+
+<section class="tilmeld-section">
+  <div class="tilmeld">
+    <h3>NYHEDSBREV TILMELDING</h3>
+    <p>Få de seneste nyheder, informationer om events og tips til en bæredygtig
+      hverdag direkte i din e-mail!</p>
+
+    <form class="tilmeld-form">
+      <input type="text" placeholder="Indtast navn">
+      <input type="email" placeholder="Indtast email">
+      <button type="submit">Tilmeld</button>
+    </form>
+  </div>
+</section>
+
+
+<script>
+  const link="https://www.youtube.com/watch?v=YXnjy5YlDwk&list=RDYXnjy5YlDwk&start_radio=1"
+  document.querySelectorAll(".card").forEach(card => {
+    card.addEventListener("click", () => {
+      window.open(link, "_blank");
+    });
+  });
+</script>
+
+
 <footer>
-  <p>© 2026 Daniel, Ava, Rune, Nico, Ibrahim</p>
+  <p>© 2026 Ava, Daniel, Ibrahim, Nico, Rune</p>
 </footer>
 </body>
 </html>
