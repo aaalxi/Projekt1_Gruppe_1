@@ -1,0 +1,111 @@
+/*Artikler*/
+.title {
+    padding: 40px;
+    margin-top: 20px;
+    font-size: 45px;
+    text-decoration: underline 8px var(--primary-color);
+    text-underline-offset: 10px;    /* flytter streg lidt ned*/
+}
+
+.nyheder-section {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+    /* border: red solid 2px; */
+}
+
+.container {
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
+    padding: 40px;
+    gap: 24px;
+    /*  background-color: orange; */
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    /*   border: mediumpurple solid 4px; */
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card h3 {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.category{
+    color: #c9041b;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 8px 0;
+    display: inline-block;
+}
+
+.card-content time{
+    color: #8e8989;
+    font-size: 10px;
+}
+
+.card:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+.card:hover h3{
+    text-decoration: underline;
+}
+
+.card-link,
+.card-link:visited {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.nyheder-section button{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    border: #8e8989 solid 2px;
+}
+
+/* Tilmeld Nyhedsbrev */
+.tilmeld-section {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+    /* border: red solid 2px; */
+}
+
+.tilmeld{
+    max-width: 300px;
+    margin: 80px 40px;
+    /* background: green;*/
+}
+
+.tilmeld h3{
+    text-decoration: underline 2px var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.tilmeld p{
+    margin-bottom: 20px;
+}
+
+.tilmeld-form{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.tilmeld-form input{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 14px;
+}
