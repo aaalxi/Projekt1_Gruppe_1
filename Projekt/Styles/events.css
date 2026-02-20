@@ -1,6 +1,6 @@
 .events-layout {
     display: grid;
-    grid-template-columns: 1.6fr 0.9fr;
+    grid-template-columns: 65% 35%;
     gap: 16px;
     align-items: start;
 }
