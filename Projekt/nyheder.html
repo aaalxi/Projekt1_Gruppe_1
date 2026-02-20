@@ -31,7 +31,7 @@
 
 <!--ARTIKLER-->
 <section class="nyheder-section">
-  <h2 class="title">Seneste nyt</h2>
+  <h1 class="title">Seneste nyt</h1>
   <div class="container">
 
     <article class="card">
@@ -130,22 +130,23 @@
           i fødevarekæden</h3>
       </div>
     </article>
-  </div>
-  <div style="margin-left: 85%">
-    <button type="button" class="button_lowprio">Se alle nyheder</button>  <!--PROBLEM-->
-  </div>
+        <button type="button" class="button_lowprio">SE ALLE NYHEDER ⇢</button>
+  </div>    <!--END CONTAINER CLASS -->
 </section>
 
 
 <section class="tilmeld-section">
-  <div class="tilmeld">
-    <h3>NYHEDSBREV TILMELDING</h3>
-    <p>Få de seneste nyheder, informationer om events og tips til en bæredygtig
-      hverdag direkte i din e-mail!</p>
+ <div class="tilmeld">
+    <h2>NYHEDSBREV TILMELDING</h2>
+    <p>Få de seneste nyheder direkte i din e-mail!</p>
 
     <form class="tilmeld-form">
-      <input type="text" placeholder="Indtast navn">
-      <input type="email" placeholder="Indtast email">
+      <label for="name" class="hidden">Navn</label>
+      <input type="text" id="name" name="name" placeholder="Indtast navn" required>
+
+      <label for="email" class="hidden">Email</label>
+      <input type="email" id="email" name="email" placeholder="Indtast email" required>
+
       <button type="submit" class="button">Tilmeld</button>
     </form>
   </div>
