@@ -41,9 +41,24 @@
     <div class="events-layout">
         <div class="events-left">
             <div class="filter-bar" aria-label="Filtrering af events">
-                <p>Her er der filter</p>
-                <label for="Søg"></label>
-                <input type="search" id="Søg" name="Søg">
+                <label for="Filter">Lokation:</label>
+                <select id="Filter" name="Filter">
+                    <option>Alle</option>
+                    <option>København</option>
+                    <option>Århus</option>
+                    <option>Odense</option>
+                    <option>Køge</option>
+                </select>
+
+                <label for="TypeFilter">Lokation:</label>
+                <select id="TypeFilter" name="Type">
+                    <option>Alle</option>
+                    <option>Foredrag</option>
+                    <option>Webinar</option>
+                    <option>Fællesspisning</option>
+                    <option>Madkamp</option>
+                </select>
+
             </div>
 
             <section class="event-box">

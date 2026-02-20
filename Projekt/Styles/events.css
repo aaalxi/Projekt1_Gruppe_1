@@ -17,12 +17,15 @@
     border-radius: 18px;
     padding: 12px;
     display:flex;
-    gap:12px;
+    gap:8px;
     flex-wrap:wrap;
     align-items:center;
 }
 .filter-bar input{
     border-radius: 12px;
+}
+.filter-bar select{
+    margin-left: 0;
 }
 
 .event-card {
