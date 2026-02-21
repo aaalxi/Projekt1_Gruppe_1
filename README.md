@@ -1,5 +1,6 @@
 # Projekt1_Gruppe_1
 
-Madspilds-projekt, første projekt på 2. sem datamatiker, EK Guldbergsgade 29N 2200 København N
+First project for second semester, only frontend in HTML and CSS: concerning a webpage dedicated to stopping food waste.
+EK Guldbergsgade 29N 2200 København N.
 
 Team: Ava, Daniel, Ibrahim, Nico og Rune.
